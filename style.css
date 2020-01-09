@@ -205,3 +205,34 @@ header{
   padding: 25px;
   font-style: italic;
 }
+
+.carousel .customer{
+  text-transform: uppercase;
+  color: #384147;
+}
+
+.carousel .carousel-control{
+  width: 25px;
+  height: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #384147;
+  border-radius: 100%;
+}
+
+.carousel-control i{
+  font-size: 20px;
+  color: #fff;
+}
+
+.carousel-indicators{
+  bottom: -40px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active{
+  width: 10px;
+  height: 10px;
+  background-color: #384147;
+  border-radius: 100%;
+}
