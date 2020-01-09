@@ -2,6 +2,7 @@
 
 html{
   font-family: 'Roboto', sans-seif;
+  cursor: pointer;
 }
 
 a:hover{
@@ -54,4 +55,81 @@ header{
 
 .nav-toggler.menu-open .fa-times{
   display: block;
+}
+
+.navbar-nav{
+  padding: 20px;
+}
+
+.nav-link{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: opacity .5s;
+}
+
+.nav-link:hover{
+  color: #fff;
+}
+
+.about-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-description{
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  outline: 5px solid rgba(56, 65, 71, 0.5);
+  outline-offset: -5px;
+  order: 2;
+  margin-top: 5px;
+}
+
+.about-image{
+  order:1;
+}
+
+.about-image img{
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0;
+}
+
+.section-heading{
+  position: relative;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.section-heading::before{
+  content:"";
+  position: absolute;
+  background-color: rgba(56, 65, 71, 0.5);
+  width: 1px;
+  height: 50px;
+  top: 53px;
+  border-radius: 8px;
+}
+
+.heading-title{
+  font-family: 'Playfair Display SC', sans-serif;
+  text-transform: uppercase;
+  color: #384147;
+  font-size: 22px;
+}
+
+.lightbox-content{
+  position: relative;
+  overflow: hidden;
+}
+
+.lightbox-content img{
+  transition: transform 2s;
+}
+
+.lightbox-content img:hover{
+  transform: scale(1.2);
 }
