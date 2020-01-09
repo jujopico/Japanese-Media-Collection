@@ -46,7 +46,7 @@
               <a href="#movies" class="nav-link">Movies</a>
             </li>
             <li class="nav-item">
-              <a href="#testimonials" class="nav-link">testimonials</a>
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
@@ -145,14 +145,6 @@
         <div class="section-heading text-center">
           <h1 class="heading-title">Movies</h1>
         </div>
-      </div>
-    </section>
-
-    <section class="testimonials py-5" id="testimonials">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h1 class="heading-title">What people are saying</h1>
-        </div>
         <div class="row">
           <div class="col-md-8 m-auto">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -161,7 +153,6 @@
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
               </ul>
-
               <div class="carousel-inner">
                 <div class="item carousel-item active">
                   <div class="img-box">
@@ -170,7 +161,7 @@
                   <p class="testimonial">
                     Thank you for torlerating John. 🙄
                   </p>
-                  <p class="customer"><strong>Mariana</strong></p>
+                  <p class="movie-name"><strong>Mariana</strong></p>
                 </div>
                 <div class="item carousel-item">
                   <div class="img-box">
@@ -179,7 +170,7 @@
                   <p class="testimonial">
                     I don't know how you make it to live with John. 😱
                   </p>
-                  <p class="customer"><strong>Diana</strong></p>
+                  <p class="movie-name"><strong>Diana</strong></p>
                 </div>
                 <div class="item carousel-item">
                   <div class="img-box">
@@ -188,7 +179,7 @@
                   <p class="testimonial">
                     John Raymond!!!!!!!🤬
                   </p>
-                  <p class="customer"><strong>Claudia</strong></p>
+                  <p class="movie-name"><strong>Claudia</strong></p>
                 </div>
               </div>
               <a 
@@ -207,6 +198,14 @@
               </a>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials py-5" id="contact">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h1 class="heading-title">Contact Me</h1>
         </div>
       </div>
     </section>
@@ -233,7 +232,15 @@
             <h5 class="text-uppercase">Newsletter</h5>
             <p class="text-muted">Subscirbe to receive updates.</p>
             <div class="input-group mb-3">
-              <input type="text" class="form-content" placeholder="Email Address">
+              <form 
+                action="https://formspree.io/sujunqt@gmail.com" 
+                method="POST" 
+              >
+                <input class="form-content" type="text" name="name" auto-complete="off" placeholder="NAME" required />
+                <input class="form-content" type="email" name="email" auto-complete="off" placeholder="EMAIL ADDRESS" required />
+                <textarea class="form-content" name="message" placeholder="MESSAGE" rows="10" cols="50" required></textarea>
+              </form>
+
               <div class="input-group-append">
                 <button class="btn" type="button">
                   <i class="far fa-paper-plane"></i>
@@ -245,9 +252,6 @@
       </div>
     </footer>
   </div>
-   
-
-
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
