@@ -31,7 +31,7 @@ header{
 
 .signature-subhead{
   font-family: 'Playfair Display SC', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -282,15 +282,35 @@ footer h5{
   }
   .about-description{
     position: absolute;
-    left: 40%;
-    top: 90%;
+    top: 80%;
     transform: translateY(-50%);
     width: 60%;
     outline-offset: -10px;
   }
   .about-image img{
     width: 70%;
-    margin-right: auto;
+    margin-left: auto;
+  }
+  .lightboxOverlay{
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-description{
+    top: 85%;
+    width: 40%;
+    outline: 10px solid rgba(56,65,71,.5);
+    outline-offset: -20px;
+  }
+  .about-image img{
+    width: 80%;
+  }
+  .lb-close{
+    position: absolute;
+    float: none;
+    top: -20px;
+    right: 30px;
   }
 }
 
