@@ -37,7 +37,7 @@ header{
 }
 
 .navbar{
-  background-color: #384147;
+  background-color: #384147; 
 }
 
 .navbar-toggler i{
@@ -70,6 +70,17 @@ header{
 
 .nav-link:hover{
   color: #fff;
+}
+
+.fixed-toppings{
+  top:0;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.main{
+  margin-top: 30vh;
 }
 
 .about-content{
@@ -262,7 +273,10 @@ footer h5{
 
 @media screen and (min-width: 768px) {
   .navbar{
-    background-color: transparent;
+    background-color: #fff;
+  }
+  header{
+    background-color: #fff;
   }
   .navbar-nav{
     padding: 0;
