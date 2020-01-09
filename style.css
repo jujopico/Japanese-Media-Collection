@@ -80,7 +80,7 @@ header{
 }
 
 .main{
-  margin-top: 30vh;
+  margin-top: 240px;
 }
 
 .about-content{
@@ -269,6 +269,12 @@ footer h5{
 
 .input-group .btn:hover{
   opacity: .6s;
+}
+
+@media screen and (min-width: 320px) {
+  header{
+    background-color: #fff;
+  }
 }
 
 @media screen and (min-width: 768px) {
