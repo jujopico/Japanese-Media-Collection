@@ -64,7 +64,7 @@ header{
 .nav-link{
   color: #fff;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1rem;
   transition: opacity .5s;
 }
 
@@ -236,3 +236,61 @@ header{
   background-color: #384147;
   border-radius: 100%;
 }
+
+footer{
+  background-color: #151515;
+}
+
+footer h5{
+  color: #fff;
+  font-family: 'Playfair Display SC', sans-serif;
+}
+
+.text-muted{
+  color: rgba(255,255,255,.7) !important;
+}
+
+.input-group .btn{
+  background-color:#384147;
+  color: #fff;
+  transition: opacity .5s;
+}
+
+.input-group .btn:hover{
+  opacity: .6s;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar{
+    background-color: transparent;
+  }
+  .navbar-nav{
+    padding: 0;
+  }
+  .nav-link{
+    color: #384147;
+  }
+  .nav-link:hover{
+    color: inherit;
+  }
+  nav:hover .nav-link:not(:hover){
+    opacity: .4;
+  }
+  .about-content{
+    position: relative;
+    display: block;
+  }
+  .about-description{
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    transform: translateY(-50%);
+    width: 60%;
+    outline-offset: -10px;
+  }
+  .about-image img{
+    width: 70%;
+    margin-right: auto;
+  }
+}
+
