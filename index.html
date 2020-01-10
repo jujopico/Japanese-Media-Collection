@@ -202,55 +202,77 @@
       </div>
     </section>
 
-    <section class="testimonials py-5" id="contact">
+    <section class="contact py-5" id="contact">
       <div class="container">
         <div class="section-heading text-center">
-          <h1 class="heading-title">Contact Me</h1>
-          <div class="input-group-append">
-            <button class="btn" type="button">
-              <i class="far fa-paper-plane"></i>
-            </button>
-          </div>
+          <h1 class="heading-title">Contact</h1>
         </div>
+        <form
+          action="https://formspree.io/johnnyrmartinez777@gmail.com" 
+          method="POST" 
+        >
+          <div class="form-group">
+            <input 
+              type="text" 
+              class="form-control" 
+              id="exampleFormControlInput1" 
+              placeholder="NAME" 
+              autocomplete="off"
+              required
+            >
+          </div>
+          <div class="form-group">
+            <input 
+              type="phone" 
+              class="form-control" 
+              id="exampleFormControlInput2" 
+              placeholder="PHONE NUMBER" 
+              autocomplete="off"
+              required
+            >
+          </div>
+          <div class="form-group">
+            <input 
+              type="email" 
+              class="form-control" 
+              id="exampleFormControlInput3" 
+              placeholder="EMAIL ADDRESS" 
+              autocomplete="off"
+              required
+            >
+          </div>
+          <div class="form-group">
+            <textarea 
+              class="form-control" 
+              id="exampleFormControlTextarea1" 
+              rows="10"
+              placeholder="MESSAGE" 
+              ></textarea>
+          </div>
+        </form>
+        <button class="btn" type="button">	                
+          <i class="far fa-paper-plane"></i>
+        </button>
       </div>
     </section>
 
     <footer class="py-5">
-      <div class="container">
+      <div class="container justify-content-center">
         <div class="row">
-          <div class="col-12 col-md-5 col-lg-4 mb-5 mb-md-0">
+          <div class="col-12 col-md-6 col-lg-5 mb-5 mb-md-0">
             <a href="index.html">
               <div class="signature">
                 <h5 class="signature-heading">Nekketsu's</h5>
                 <h3 class="signature-subhead">Japanese Media Collection</h3>
               </div>
             </a>
-            <small class="d-block mt-2 text-muted">&copy; Copyright 2020. All rights reserved.</small>
           </div>
-          <div class="social-media col-12 col-md-5 col-lg-4 mb-5 mb-md-0">
+          <div class="social-media col-12 col-md-6 col-lg-5 mb-5 mb-md-0">
             <h5 class="text-uppercase">Follow me</h5>
             <div class="list-unstyled text-small mb-0">
-              <a href="https://www.instagram.com/nekketsu_js" target="blank" class="text-muted">On Instagram <i class="fab fa-instagram"></i></a>
+              <a href="https://www.instagram.com/nekketsu_js" target="blank" class="text-muted"><i class="fab fa-instagram"></i></a>
             </div>
-          </div>
-          <div class="newsletter col-12 col-md-5 col-lg-4">
-            <h5 class="text-uppercase">Newsletter</h5>
-            <p class="text-muted">Subscirbe to receive updates.</p>
-            <div class="input-group mb-3">
-              <form 
-                action="https://formspree.io/sujunqt@gmail.com" 
-                method="POST" 
-              >
-                <input class="form-content" type="text" name="name" auto-complete="off" placeholder="NAME" required />
-                <input class="form-content" type="email" name="email" auto-complete="off" placeholder="EMAIL ADDRESS" required />
-                <textarea class="form-content" name="message" placeholder="MESSAGE" rows="10" cols="50" required></textarea>
-              </form>
-              <!-- <div class="input-group-append">
-                <button class="btn" type="button">
-                  <i class="far fa-paper-plane"></i>
-                </button>
-              </div> -->
-            </div>
+            <small class="d-block mt-2 text-muted">&copy; Copyright 2020 Made By <a href="https://www.junsu.dev"><span class="jun">Jun Su</span></a> with ♡.</small>
           </div>
         </div>
       </div>
