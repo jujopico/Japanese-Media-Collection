@@ -3,5 +3,7 @@ $('.navbar-toggler').on('click', function(){
 })
 
 window.addEventListener("hashchange", function () {
-  window.scrollTo(window.scrollX, window.scrollY - 180);
+  window.scrollTo(window.scrollX, window.scrollY - 150);
 });
+window.addEventListener("hashchange", offsetAnchor);
+window.setTimeout(offsetAnchor, 1);
