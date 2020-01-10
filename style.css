@@ -283,6 +283,33 @@ footer h5{
   text-align: center;
 } 
 
+.jun {
+  text-decoration: none;
+  color: #fff;
+}
+
+.jun a:hover {
+  transition: transform 2s;
+  transform: scale(3);
+}
+
+.fa-paper-plane {
+  font-size: 25px;
+}
+
+.fa-instagram {
+  color: #fff;
+  font-size: 25px;
+}
+
+.submit-section {
+  display: flex;
+}
+
+.submit-info {
+  margin-top: 1rem;
+}
+
 @media screen and (min-width: 320px) {
   header{
     background-color: #fff;
