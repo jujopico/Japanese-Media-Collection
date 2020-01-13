@@ -321,6 +321,11 @@ footer h5{
   -webkit-animation: blink-animation .5s steps(5, start) infinite;
 }
 
+h6 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 @keyframes blink-animation {
   to {
     visibility: hidden;
