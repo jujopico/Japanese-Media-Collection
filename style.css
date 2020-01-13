@@ -349,6 +349,14 @@ footer h5{
   header{
     background-color: #fff;
   }
+  .carousel .movie-img-box img{
+    width: 100%;
+    height: auto;
+  }
+  .carousel .item .movie-img-box{
+    width: 90%;
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -387,6 +395,14 @@ footer h5{
   }
   .lightboxOverlay{
     overflow: hidden;
+  }
+  .carousel .movie-img-box img{
+    width:100%;
+    height: auto;
+  }
+  .carousel .item .movie-img-box{
+    width: 90%;
+    height: auto;
   }
 }
 
