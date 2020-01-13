@@ -15,7 +15,7 @@ A website built by HTML, CSS, Javascript, Boostrap and FontAwesome, is mostly a 
 
 ## Check on Website
 
-...Waiting for Deployment
+https://japanese-media-collection.herokuapp.com/
 
 ## How to Use
 
