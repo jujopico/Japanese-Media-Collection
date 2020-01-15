@@ -312,13 +312,7 @@ footer h5{
 .fa-paper-plane {
   font-size: 25px;
   transition: 1s;
-}
-
-.fa-paper-plane:hover {
   color: #bada55;
-  transform: scale(1.2);
-  animation: blink-animation .5s steps(5, start) infinite;
-  -webkit-animation: blink-animation .5s steps(5, start) infinite;
 }
 
 h6 {
