@@ -355,7 +355,7 @@ h6 {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #bada55;
+  background-color: rgba(186,218,85, 0.8);
   color: white;
   cursor: pointer;
   padding: 15px;

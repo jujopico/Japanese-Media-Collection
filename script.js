@@ -10,7 +10,7 @@ $('.navbar-toggler').on('click', function(){
 // window.setTimeout(offsetAnchor, 1);
 
 //Get the button
-var mybutton = document.getElementById("myBtn");
+const mybutton = document.getElementById("myBtn");
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
